@@ -133,3 +133,48 @@ body {
   padding: 19px;
   text-decoration: none;
 }
+
+/* About */
+
+.about {
+  padding: 128px 0 271px 0;
+  background: url(../images/buildings_white.png) center 101% repeat-x,
+              url(../images/buildings_dark.png) center 100% repeat-x,
+              #1d1d1d;
+}
+
+.about__menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 178px;
+  justify-content: center;
+}
+
+.about__menu-item {
+  padding: 75px 10px 70px 10px;
+  max-width: 417px;
+  background-color: #181818;
+  text-align: center;
+}
+
+.about__menu-title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  margin: 0 0 27px 0;
+}
+
+.about__menu-text {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #b7b7b7;
+  margin: 0;
+}
