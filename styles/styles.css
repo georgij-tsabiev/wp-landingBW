@@ -457,3 +457,18 @@ body {
   letter-spacing: 0.02em;
   color: #fefefe;
 }
+
+/* Footer */
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #3b3b3b;
+}
