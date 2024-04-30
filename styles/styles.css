@@ -345,3 +345,115 @@ body {
   margin: 0;
   text-align: center;
 }
+
+/* Contact */
+
+.contact {
+  padding: 95px 0 124px 0;
+}
+
+.contact__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 34px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin: 0 0 13px 0;
+  text-align: center;
+}
+
+.contact__text {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin: 0;
+  text-align: center;
+}
+
+.contact__menu {
+  margin: 0;
+  padding: 64px 0 153px 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.contact__item {
+  min-width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__text a {
+  display: block;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-decoration: none;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+.contact__form input {
+  padding: 20px;
+  text-align: center;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  border: 1px solid #999999;
+}
+
+.contact__name {
+  margin-bottom: 20px;
+}
+
+.contact__email {
+  margin-bottom: 20px;
+}
+
+.contact__number {
+  margin-bottom: 18px;
+}
+
+.contact__textarea {
+  min-height: 195px;
+  padding: 22px;
+  margin-bottom: 21px;
+  resize: none;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  border: 1px solid #999999;
+}
+
+.contact__form .contact__button {
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  background-color: #161616;
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+}
