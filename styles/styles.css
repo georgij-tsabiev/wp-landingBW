@@ -261,11 +261,12 @@ body {
 .team__icon-block {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
 }
 
 .team__icon-block a {
   display: block;
+  color: #e4e4e4;
+  font-size: 20px;
 }
 
 /* Provide */
@@ -320,6 +321,11 @@ body {
   align-items: center;
   justify-items: center;
   max-width: 326px;
+}
+
+.provide__item span {
+  font-size: 63px;
+  color: #ffffff;
 }
 
 .provide__image-wrapper {
@@ -399,6 +405,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.contact__item span {
+  color: #323232;
+  font-size: 21px;
 }
 
 .contact__text a {
